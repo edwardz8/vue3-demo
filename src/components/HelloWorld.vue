@@ -1,16 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-   <!--  <SbLoading type="spinner" size="x-large" color="primary" /> -->
+   <SbLoading type="spinner" size="x-large" color="primary" />
   </div>
 </template>
 
 <script>
-// import SbLoading from 'storyblok-design-system/src/components/Loading/index'
+import SbLoading from 'storyblok-design-system/src/components/Loading/index'
 
 export default {
   name: 'HelloWorld',
-  // components: { SbLoading },
+  components: { SbLoading },
   props: {
     msg: String
   }
